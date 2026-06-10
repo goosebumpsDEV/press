@@ -16,7 +16,7 @@ html, body {
     justify-content: center; /* Centra los botones horizontalmente */
     align-items: center; /* Centra los botones verticalmente */
     height: 100vh;
-    background-image: url("/resorces/ets\ up.png");
+    background-image: url("resorces/ets up.png");
     background-size: cover;
     background-position: center;
     display: flex;
