@@ -1,0 +1,27 @@
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+}
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row; /* Cambia a fila para alinear horizontalmente */
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+    height: 100vh;
+    background-image: url("/resorces/ets\ up.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Volvemos a la dirección por columna */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

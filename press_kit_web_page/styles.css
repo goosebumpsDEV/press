@@ -1,0 +1,109 @@
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+}
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row; /* Cambia a fila para alinear horizontalmente */
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+    height: 100vh;
+    background-image: url("/resorces/back.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Volvemos a la dirección por columna */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+  .button-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+button {
+
+    width: 180px;
+     height: 30px;
+      margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: transparent; /* Hace el fondo transparente */
+    color: #fff26d; /* Texto blancbuo */
+    border: 0.5px solid #fff26d; /* Borde negro de 2px */
+    cursor: pointer;
+    border-radius: 76px;
+    display:       inline-block;
+    font:          normal  18px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    
+}
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo negro semi-transparente */
+}
+
+.container {
+    text-align: center; /* Centramos todo el contenido horizontalmente */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centramos los botones horizontalmente */
+}
+
+.name{
+    color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content:   
+ center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+@media (max-width: 768px) {
+    .button-container {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+    .button {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .button {
+      font-size: 0.8rem;
+      padding: 10px 20px;
+    }
+  }
